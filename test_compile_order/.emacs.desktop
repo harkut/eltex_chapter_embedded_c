@@ -2,19 +2,19 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Nov 20 21:59:50 2025
+;; Created Sun Nov 23 14:45:41 2025
 ;; Desktop file format version 208
 ;; Emacs version 28.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (26911 11494 620795 774000) (desktop . "208") "harkut@harkut" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white") (background-color . "#202022") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "white") (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (environment) (last-focus-update . t) (frameset--id . "D977-ADC5-C266-5A9D") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":1") (explicit-name) (height . 47) (width . 80) (left . 950) (top . 24)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 48) (min-pixel-width . 50) (min-pixel-height-ignore . 24) (min-pixel-width-ignore . 45) (min-pixel-height-safe . 12) (min-pixel-width-safe . 10)) leaf (pixel-width . 432) (pixel-height . 552) (total-width . 86) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer "main.c" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 74) (start . 1)) (prev-buffers ("*scratch*" 1 1))))])
+(setq desktop-saved-frameset [frameset 1 (26914 48037 895020 409000) (desktop . "208") "harkut@harkut" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white") (background-color . "#202022") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "white") (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . icon) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (last-focus-update) (frameset--id . "7AC4-FD22-2796-68C3") (frameset--mini t) (height . 47) (width . 80) (modeline . t) (unsplittable) (icon-name) (display . ":1") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 48) (min-pixel-width . 50) (min-pixel-height-ignore . 24) (min-pixel-width-ignore . 45) (min-pixel-height-safe . 12) (min-pixel-width-safe . 10)) leaf (pixel-width . 432) (pixel-height . 552) (total-width . 86) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer "main.c" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 74) (start . 1)) (prev-buffers ("*gud-target-async*" 1 85))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white") (background-color . "#202022") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "white") (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (environment) (last-focus-update . t) (frameset--id . "D977-ADC5-C266-5A9D") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":1") (explicit-name) (tabs (current-tab (name . "*Messages*") (explicit-name))) (height . 81) (width . 185) (left . 950) (top . 24)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 9) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 96) (min-pixel-width . 50) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 45) (min-pixel-height-safe . 24) (min-pixel-width-safe . 10)) vc (pixel-width . 960) (pixel-height . 967) (total-width . 192) (total-height . 81) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 960) (pixel-height . 487) (total-width . 192) (total-height . 41) (normal-height . 0.5) (normal-width . 1.0) (buffer "*gud-test*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 10883) (start . 10178)) (prev-buffers ("*gud*" 1 85) ("*Messages*" 1 3600) ("*gud-non-stop*" 1 85) ("*gud-target-async*" 1 85) ("main.c" 1 74) ("test_compile_order" 1 300))) (leaf (last . t) (pixel-width . 960) (pixel-height . 480) (total-width . 192) (total-height . 40) (normal-height . 0.5) (normal-width . 1.0) (buffer "main.c" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 74) (start . 1)) (prev-buffers ("*gud-test*" 3439 10883)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring nil)
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/sprj/eltex_chapter_embedded_c/test_compile_order/main.c"))
+(setq file-name-history '("~/sprj/eltex_chapter_embedded_c/test_compile_order/main.c" "~/sprj/eltex_chapter_embedded_c/test_compile_order/" "~/sprj/eltex_chapter_embedded_c/test_compile_order/main.c"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
@@ -23,9 +23,21 @@
   'c-mode
   '(abbrev-mode column-enforce-mode which-key-mode helm-mode flycheck-mode)
   74
-  '(1 nil)
+  '(74 nil)
   nil
   nil
-  '((buffer-display-time 26911 10126 74195 130000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (21 37 73 37 73 37 73 44 74 74))))
+  '((buffer-display-time 26914 48001 527603 616000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 21 37 73 37 73 37 73 44 74))))
+
+(desktop-create-buffer 208
+  nil
+  "test_compile_order"
+  'dired-mode
+  '(which-key-mode helm-mode)
+  300
+  '(nil nil)
+  t
+  '("/home/harkut/sprj/eltex_chapter_embedded_c/test_compile_order/")
+  '((buffer-display-time 26914 45379 168543 238000))
+  '((mark-ring nil)))
 
