@@ -1,0 +1,31 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Nov 29 10:36:58 2025
+;; Desktop file format version 208
+;; Emacs version 28.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26922 27226 616387 271000) (desktop . "208") "harkut@harkut" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white") (background-color . "#202022") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "white") (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 2) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (environment) (tabs (current-tab (name . "ex_1.c") (explicit-name))) (last-focus-update . t) (frameset--id . "AB65-B3AF-C5F8-FCA1") (frameset--mini t . t) (height . 80) (width . 185) (modeline . t) (unsplittable) (left . 950) (top . 24) (icon-name) (display . ":1") (explicit-name)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 18) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 96) (min-pixel-width . 100) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 90) (min-pixel-height-safe . 24) (min-pixel-width-safe . 20)) vc (pixel-width . 960) (pixel-height . 952) (total-width . 192) (total-height . 79) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 960) (pixel-height . 472) (total-width . 192) (total-height . 39) (normal-height . 0.5) (normal-width . 1.0) (buffer "ex_1.c" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 848) (start . 1)) (prev-buffers ("*scratch*" 1 152))) (hc (last . t) (pixel-width . 960) (pixel-height . 480) (total-width . 192) (total-height . 40) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 480) (pixel-height . 480) (total-width . 96) (total-height . 40) (normal-height . 1.0) (normal-width . 0.5) (buffer "ex_1.c" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 425) (start . 1))) (leaf (last . t) (pixel-width . 480) (pixel-height . 480) (total-width . 96) (total-height . 40) (normal-height . 1.0) (normal-width . 0.5) (buffer "*eshell*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 4 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1091) (start . 1)) (prev-buffers ("ex_1.c" 1 632))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/sprj/eltex_chapter_embedded_c/work_3/ex_1/ex_1.c"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/harkut/sprj/eltex_chapter_embedded_c/work_3/ex_1/ex_1.c"
+  "ex_1.c"
+  'c-mode
+  '(abbrev-mode column-enforce-mode flycheck-mode helm-mode which-key-mode hs-minor-mode)
+  848
+  '(997 nil)
+  nil
+  nil
+  '((buffer-display-time 26922 27222 812044 95000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (996 522 485 481 1052 1040 909 324 478 505 323 464 30 1055 871 848))))
+
