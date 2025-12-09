@@ -1,0 +1,23 @@
+**/History
+**/__Previews
+**/Projects\ Logs\ for\ *
+*.log
+*.bak
+*.tmp
+*.diff
+*~
+*.xmi
+*:Zone.Identifier
+**/Test
+**/dep
+**/.d
+*.o
+*.so
+*.wlf
+*.hex
+*.pyc
+transcript
+**/__pycache__
+**/work
+*.bak_*
+**/.emacs.*

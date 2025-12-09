@@ -35,19 +35,118 @@
 #define LEN_NAME 10
 #define LEN_SNAME 10
 #define LEN_TEL 10
-#define SIZE_BOOK 100
+#define SIZE_BOOK 12
 /*--------------------------------------------------------------------------*/
 int main() {
 
   struct abonent {
-    char name[LEN_NAME];
-    char second_name[LEN_SNAME];
-    char tel[LEN_TEL];
+    char name[LEN_NAME + 1];
+    char second_name[LEN_SNAME + 1];
+    char tel[LEN_TEL + 1];
   };  
   struct abonent book[SIZE_BOOK];
+  unsigned short int cs = 0;
+  unsigned short int cur_size_book = 0;
+  
+  while(cs != 5) {
 
-  
-  
+    // Объявление справочника и его функций.
+    printf("\nАбонентский справочник.\n");
+    printf("1) Добавить абонента;\n");
+    printf("2) Удалить абонента;\n");
+    printf("3) Поиск абонентов по имени;\n");
+    printf("4) Вывод списка абонентов;\n");
+    printf("5) Выход.\n\n");
+
+    // Ввод и выполнение функции из справочника.
+    printf("Введите пункт меню: ");
+    // Считываем с потока ввода символ отсекая \n.
+    // Представляем в целочисленной форме в соответсвие с ASCII вычитая '0'
+    // ('3' - '0') -> (51 - 48).
+    // Проверяем на границы справочника от 1 до 5.
+    while ((((cs = charGets() - '0') <= 5) && (cs > 0)) ? 0 : 1); 
+    switch (cs) {
+    // Добавление абонента.
+    case 1:
+    {
+      if (cur_size_book < SIZE_BOOK) {
+        printf("\nВведите имя абонента: ");
+        strGets(book[cur_size_book].name, LEN_NAME + 1);
+        // Первый способ получения доступа к элементу структуры в массиве
+        // структур через индекс напрямую.
+        printf("Введите фамилию абонента: ");
+        strGets(book[cur_size_book].second_name, LEN_SNAME + 1);
+        // Второй способ получения доступа к элементу структуры в массиве
+        // структур через косвенное обращение.
+        printf("Введите телефон абонента: ");
+        strGets((book + cur_size_book)->tel, LEN_TEL + 1);
+        cur_size_book++;
+      } else {
+        printf("\nСправочник переполенен. Освободите место.\n");
+      }
+      break;
+    }
+    // Удалить абонента.
+    case 2:
+    {
+      if (cur_size_book > 0) {
+        short int i = 0;
+        char str[SIZE_BOOK] = {0};
+        printf("\nВведите порядковый номер абонента (от 0 до %d): ",
+               cur_size_book - 1);
+        while ((((i = (atoi_h(strGets(str, SIZE_BOOK)))) < cur_size_book)
+                && (i >= 0)) ? 0 : 1);
+        strNull(book[i].name);
+        strNull(book[i].second_name);
+        strNull(book[i].tel);
+        cur_size_book--; 
+        while (i < cur_size_book) {
+          book[i] = book[i + 1];
+          i++;
+        }
+        break;
+      }
+      else {
+        printf("\nСправочник пуст.\n");
+        break;
+      }
+    }
+    // Поиск абонентов по имени.
+    case 3:
+    {
+      char str[SIZE_BOOK] = {0};
+      short int i = 0;
+      printf("\nВведите имя абонента: ");
+      strGets(str, SIZE_BOOK);
+      printf("\nАбоненты с таким именем: \n\n");
+      while (i <= SIZE_BOOK - 1) {
+        char* ptr1 = findStr(book[i].name, str);
+        if ((ptr1 != NULL)) {
+          printf("Абонент %d:\n", i);
+          printf("1. Имя: %s;\n", book[i].name);
+          printf("2. Фамилия: %s;\n", book[i].second_name);
+          printf("3. Телефон: %s.\n\n", book[i].tel);
+        }
+        i++;
+      }
+      break;
+    } 
+    // Вывод списка абонентов.
+    case 4:
+    {
+      short int i = 0;
+      printf("\nСписок абонентов:\n\n");
+      while (i < cur_size_book) {
+        printf("Абонент %d:\n", i);
+        printf("1. Имя: %s;\n", book[i].name);
+        printf("2. Фамилия: %s;\n", book[i].second_name);
+        printf("3. Телефон: %s.\n\n", book[i].tel);
+        i++;
+      }
+      break;
+    }
+    }
+  }
   return 0;
 }
 
